@@ -1,7 +1,8 @@
 function makeGrid() {
-  var canvas = document.getElementById('pixel_canvas');
-  var height = document.getElementById('input_height').value;
-  var width = document.getElementById('input_width').value;
+
+  var canvas = document.getElementById('pixelCanvas');
+  var height = document.getElementById('inputHeight').value;
+  var width = document.getElementById('inputWidth').value;
 
   canvas.innerHTML = ''; // remove children
 
