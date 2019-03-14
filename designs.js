@@ -10,7 +10,8 @@ function makeGrid() {
       var cell = document.createElement("td"); // create cell
       row.appendChild(cell); // insert cell (attribution - https://knowledge.udacity.com/questions/29796)
       cell.addEventListener('click', function(event) { // get color on click
-        event.target.style.backgroundColor = document.getElementById('colorPicker').value; // get color
+        var color = document.getElementById('colorPicker');
+        event.target.style.backgroundColor = color.value; // get color
       });
     }
   }
